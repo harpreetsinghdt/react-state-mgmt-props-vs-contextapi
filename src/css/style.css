@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body,
+input,
+button {
+  font-family: "Itim", cursive;
+  color: burlywood;
+}
+h1,
+h2,
+p {
+  padding: 2rem;
+}
+
+input {
+  width: 100%;
+  padding: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background: none;
+  border: 1px solid #333;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dark {
+  color: #333;
+}
