@@ -1,16 +1,14 @@
 import { useContext } from "react";
 import ThemeContext from './ThemeContext';
 
-export default function SiblingComponentC(props){
+export default function SubSiblingComponent() {
   const { theme }  = useContext(ThemeContext);
-  console.log("Sibling component C", theme);
-
-  return(
+  console.log("Sub Sibling component", theme);
+  return (
     <div>
       <h1 className={`${theme === "dark" ? "dark" : "light"}`}>
-        Sibling Component C
+      This is SubSiblingComponent
       </h1>
     </div>
   )
 }
-

@@ -13,6 +13,7 @@ export default function ContextApi() {
         <SiblingComponentA />
         <SiblingComponentB />
         <SiblingComponentC />
+        
         <ThemeButton />
       </ContextProvider>
     </div>

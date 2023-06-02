@@ -39,4 +39,20 @@ button {
 
 .dark {
   color: #333;
+  background-color: aqua;
+}
+
+.light {
+  color: greenyellow;
+  background-color: cadetblue;
+}
+
+.normal {
+  color: green;
+  background-color: lightgoldenrodyellow;
+}
+
+.complex{
+  color: red;
+  background-color: coral;
 }
